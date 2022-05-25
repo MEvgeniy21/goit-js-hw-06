@@ -18,6 +18,7 @@ function onClickCreate() {
 
 function onClickDestroy() {
   refs.box.innerHTML = "";
+  refs.inputNum.value = "";
 }
 
 function createBoxes(amount) {

@@ -6,7 +6,7 @@ function changeBorderColor(event) {
   const element = event.currentTarget;
   const dataLength = parseInt(element.dataset.length, 10);
   const inputLength = element.value.length;
-  const onValid = inputLength >= dataLength;
+  const onValid = inputLength === dataLength;
   const CLASS_VALID = "valid";
   const CLASS_INVALID = "invalid";
 
